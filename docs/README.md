@@ -580,6 +580,7 @@ Here you can find all the supported libraries you can use in you Kotlin notebook
  - [reflection](https://kotlinlang.org/docs/reflection.html) - Imports for Kotlin Reflection
  - [roboquant](https://roboquant.org) - Algorithmic trading platform written in Kotlin
  - [serialization](https://github.com/Kotlin/kotlin-notebook-integrations/tree/master/integrations/http-util) - Deserialize JSON content using kotlinx.serialization and automatically generate classes for it
+ - [skainet-notebook](https://github.com/SKaiNET-developers/skainet-notebook) - SKaiNET: Kotlin-native deep learning framework with SIMD-accelerated CPU kernels, GGUF/ONNX/SafeTensors loaders, and StableHLO compilation
  - [smile](https://github.com/haifengl/smile) - Statistical Machine Intelligence and Learning Engine
  - [spark](https://github.com/JetBrains/kotlin-spark-api) - Kotlin API for Apache Spark: unified analytics engine for large-scale data processing
  - [spark-streaming](https://github.com/JetBrains/kotlin-spark-api) - Kotlin API for Apache Spark Streaming: scalable, high-throughput, fault-tolerant stream processing of live data streams
