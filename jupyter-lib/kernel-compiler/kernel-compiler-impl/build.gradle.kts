@@ -1,5 +1,6 @@
 plugins {
     kotlin("jvm")
+    kotlin("libs.publisher")
 }
 
 dependencies {
@@ -48,4 +49,11 @@ buildSettings {
 
 tasks.test {
     useJUnitPlatform()
+}
+
+kotlinPublications {
+    publication {
+        publicationName.set("kernel-compiler-impl")
+        description.set("REPL compiler that can be used both in a daemon or directly in the kernel")
+    }
 }
